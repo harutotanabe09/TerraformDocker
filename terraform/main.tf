@@ -1,13 +1,18 @@
 # Sample
 
 provider "aws" {
-  region = "us-east-2"
+  region = "ap-northeast-1"
 }
 
-variable "vpc_cidr" {
-  default = "10.0.0.0/16"
+variable "service_name" {
+  default = "sample-app"
 }
 
-resource "aws_vpc" "main" {
-  cidr_block = var.vpc_cidr
+variable "region" {
+  default = "ap-northeast-1"
 }
+
+variable "environment" {
+  default = "develop"
+}
+

@@ -5,3 +5,5 @@ docker-compose exec terraform /bin/ash
 
 terraform init
 terraform plan
+terraform fmt
+terraform apply
