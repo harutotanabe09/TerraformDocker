@@ -5,5 +5,6 @@ terraform {
     bucket = "app-20210627-tf-state-ap-northeast-1"
     key    = "terraform/terraform.tfstate"
     region = "ap-northeast-1"
+    defalut = "default"
   }
 }

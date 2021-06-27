@@ -7,3 +7,11 @@ terraform init
 terraform plan
 terraform fmt
 terraform apply
+
+### file
+
+main.tf : 変数ファイル
+terraform.tf : stateファイルの保存先
+versions.tf : バージョン指定
+provider.tf : プラグイン
+
